@@ -1,0 +1,386 @@
+{
+    "ingredients": {
+
+        "white": {
+            "name": "Boomberry",
+            "quantity": {
+                "1": 26,
+                "2": 11,
+                "3": 6
+            },
+            "effect": "When the sum of boomberries in the cauldron go above 7, your cauldron explodes!"
+        },
+
+        "orange": {
+            "name": "Pumpkins",
+            "quantity": {
+                "1": 32,
+                "6": 20
+            },
+            "cost": {
+                "1": 3,
+                "6": 22
+            },
+            "effect": "Orange tokens don't have any effect when placed in your cauldron. An orange 1 can never be upgraded to an orange 6."
+        },
+
+        "blue": {
+            "name": "Skulls",
+            "quantity": {
+                "1": 22,
+                "2": 15,
+                "4": 15
+            },
+            "set": {
+                "1": {
+                    "effect": "Draw 1/2/4 tokens from your bag. You can place one in your cauldron. Put the rest back.",
+                    "cost": {
+                        "1": 5,
+                        "2": 10,
+                        "4": 19
+                    }
+                },
+                "2": {
+                    "effect": "If your cauldron explodes within teh next 1/2/4 tokens, you still score victory points and earn money this round, but you don't get to roll the bonus die.",
+                    "cost": {
+                        "1": 5,
+                        "2": 10,
+                        "4": 19
+                    }
+                },
+                "3": {
+                    "effect": "If this token is placed on a ruby space, immediately take a ruby.",
+                    "cost": {
+                        "1": 4,
+                        "2": 8,
+                        "4": 14
+                    }
+                },
+                "4": {
+                    "effect": "Score 1/2/4 victory points immediately if this token is placed on a ruby space.",
+                    "cost": {
+                        "1": 5,
+                        "2": 10,
+                        "4": 19
+                    }
+                },
+                "5": {
+                    "effect": "If you have at least as many orange tokens in your cauldron as this token's value, immeditealy score 1/2/4 victory points.",
+                    "cost": {
+                        "1": 8,
+                        "2": 15,
+                        "4": 19
+                    }
+                },
+                "6": {
+                    "effect": "Look at this token's value: for every white 1 token within the last 1/2/4 chips you placed, take a ruby.",
+                    "cost": {
+                        "1": 5,
+                        "2": 10,
+                        "4": 18
+                    }
+                }
+            }
+        },
+
+        "red": {
+            "name": "Toadstools",
+            "quantity": {
+                "1": 18,
+                "2": 15,
+                "4": 15
+            },
+            "set": {
+                "1": {
+                    "effect": "If there are 1 or 2 orange tokens in your cauldron, move this token forwards 1 extra space. If there are 3 or more orange tokens, move this token forwards 2 extra spaces.",
+                    "cost": {
+                        "1": 6,
+                        "2": 10,
+                        "4": 16
+                    }
+                },
+                "2": {
+                    "effect": "Put this token aside. After you stop drawing this turn, or your cauldron explodes, you can either place it or save it for any future turn as your final token.",
+                    "cost": {
+                        "1": 4,
+                        "2": 8,
+                        "4": 14
+                    }
+                },
+                "3": {
+                    "effect": "If you placed a white token in your cauldron immediately before a red token, add the white one's value to the red one's movement.",
+                    "cost": {
+                        "1": 5,
+                        "2": 9,
+                        "4": 15
+                    }
+                },
+                "4": {
+                    "effect": "If you have a red token in your cauldron, each white 1 token moves 2 spaces instead. This extra movement doesn't count towards your cauldron exploding.",
+                    "cost": {
+                        "1": 7,
+                        "2": 11,
+                        "4": 17
+                    }
+                },
+                "5": {
+                    "effect": "Every red token you draw has the value of the highest red token you've drawn this round.",
+                    "cost": {
+                        "1": 6,
+                        "2": 11,
+                        "4": 18
+                    }
+                },
+                "6": {
+                    "effect": "Draw a token from your bag and put it aside. Place it any time this round, even after you stop or your cauldron explodes. Drawing a white token this way still counts towards your cauldron exploding and you MUST play this token sometime during this round.",
+                    "cost": {
+                        "1": 7,
+                        "2": 11,
+                        "4": 17
+                    }
+                }
+            }
+        },
+
+        "yellow": {
+            "name": "Mandrakes",
+            "quantity": {
+                "1": 19,
+                "2": 12,
+                "4": 15
+            },
+            "set": {
+                "1": {
+                    "effect": "If the previous token you placed was white, you can put it back into your bag.",
+                    "cost": {
+                        "1": 8,
+                        "2": 12,
+                        "4": 18
+                    }
+                },
+                "2": {
+                    "effect": "Double the printed value of the next token you place for its movement value only.",
+                    "cost": {
+                        "1": 9,
+                        "2": 13,
+                        "4": 19
+                    }
+                },
+                "3": {
+                    "effect": "Your cauldron's explosion limit increases based on the number of yellow tokens placed. 1 token increases the limit to 8 and 3 or more tokens increases the limit to 9.",
+                    "cost": {
+                        "1": 8,
+                        "2": 12,
+                        "4": 18
+                    }
+                },
+                "4": {
+                    "effect": "The first yellow token you place moves 1 extra space. The second moves 2 extra spaces. The third moves 3 extra spaces. Fourth and after have no movement bonuses.",
+                    "cost": {
+                        "1": 8,
+                        "2": 12,
+                        "4": 18
+                    }
+                },
+                "5": {
+                    "effect": "Draw another token and add its value to this one's movement. Put the extra token back in your bag. If the drawn token is a locoweed, treat its value as 1.",
+                    "cost": {
+                        "1": 10,
+                        "2": 14,
+                        "4": 20
+                    }
+                },
+                "6": {
+                    "effect": "You can pay 1 ruby to move this token forward 3 extra spaces. You can only do this once per yellow token drawn.",
+                    "cost": {
+                        "1": 8,
+                        "2": 12,
+                        "4": 18
+                    }
+                }
+            }
+        },
+
+        "black": {
+            "name": "Moths",
+            "quantity": {
+                "1": 26
+            },
+            "set": {
+                "2player": {
+                    "effect": "If you drew the same number of black tokens as the other player, move your droplet marker 1 space forward. If you drew more black tokens than them, additionally take 1 ruby from the supply.",
+                    "cost": {
+                        "1": 10
+                    }
+                },
+                "3player": {
+                    "effect": "If you have more black tokens than ONE of your neighbours, move your droplet marker 1 space forward. If you have more than BOTH of your neighbours, additionally take 1 ruby from the supply.",
+                    "cost": {
+                        "1": 10
+                    }
+                },
+                "5": {
+                    "effect": "When you acquire this token, put it in the bag of the player to your left, then move your droplet forward a space. When testing your potion, take a ruby for every black token in their cauldron. That player takes the same amount of rubies, but only if a black token is one of the final two placed in their cauldron.",
+                    "cost": {
+                        "1": 10
+                    }
+                },
+                "6": {
+                    "effect": "The player whose black token is furthest ahead in the cauldron moves their droplet forward 1 space. The second furthest player gets 1 ruby. One player can win both bonuses if they have 2 or more black tokens. In the case of a tie, all tied players get the respective bonus.",
+                    "cost": {
+                        "1": 9
+                    }
+                }
+            }
+        },
+
+        "green": {
+            "name": "Spiders",
+            "quantity": {
+                "1": 25,
+                "2": 15,
+                "4": 18
+            },
+            "set": {
+                "1": {
+                    "effect": "Take a ruby if this token is one of the final two placed in your cauldron. If the final two tokens you placed are green, get 2 rubies.",
+                    "cost": {
+                        "1": 4,
+                        "2": 8,
+                        "4": 14
+                    }
+                },
+                "2": {
+                    "effect": "Put a bonus token in your bag if this token is one of the final two placed in your cauldron. Put 2 if the final two tokens are both green. For a green 1, take an orange 1. For a green 2, choose either a blue or red 1. For a green 4, choose wither a yellow or purple 1.",
+                    "cost": {
+                        "1": 6,
+                        "2": 11,
+                        "4": 18
+                    }
+                },
+                "3": {
+                    "effect": "If your white tokens add up to exactly 7, add up the value of all green tokens in your cauldron and move your last token forward that many spaces.",
+                    "cost": {
+                        "1": 6,
+                        "2": 11,
+                        "4": 21
+                    }
+                },
+                "4": {
+                    "effect": "If this token is one of the final two placed in your cauldron, you can pay 1 ruby to move your droplet forward a space. If your final 2 tokens are green, you can pay 2 rubies to move your droplet forward 2 spaces.",
+                    "cost": {
+                        "1": 4,
+                        "2": 8,
+                        "4": 14
+                    }
+                },
+                "5": {
+                    "effect": "If this token is one of the final two placed in your cauldron, put aside any 1/2/4 value token on your cauldron and place it as your first token next round. If final 2 tokens are green, set aside 2 tokens. You decide in which order they're placed.",
+                    "cost": {
+                        "1": 5,
+                        "2": 9,
+                        "4": 16
+                    }
+                },
+                "6": {
+                    "effect": "Roll the bonus die if this token is one of the final two placed in your cauldron. Roll twice if the final two tokens are green.",
+                    "cost": {
+                        "1": 4,
+                        "2": 8,
+                        "4": 14
+                    }
+                }
+            }
+        },
+
+        "purple": {
+            "name": "Ghosts",
+            "quantity": {
+                "1": 24
+            },
+            "set": {
+                "1": {
+                    "effect": "Receive one of these bonuses based on the number of purple tokens in your cauldron. If you have 1 purple token, score 1 victory point. If you have 2 purple tokens, score 1 victory point and take 1 ruby. If you have 3 or more purple tokens, score 2 victory points and move your droplet forward one space.",
+                    "cost": {
+                        "1": 9
+                    }
+                },
+                "2": {
+                    "effect": "You can return the purple tokens in your cauldron to the supply for the following bonuses: Return 1 purple token to take 1 black token, score 1 victory point and take 1 ruby. Return 2 purple tokens to take 1 green 1 token, 1 blue 2 token, score 3 victory points and move your droplet forward 1 space. Return 3 purple tokens to take 1 yellow 4 token, score 6 victory points, take 1 ruby and move your droplet forward 2 spaces.",
+                    "cost": {
+                        "1": 12
+                    }
+                },
+                "3": {
+                    "effect": "Each of your purple tokens score victory points based on which spaces they are placed in your cauldron. Below 10 scores 0 victory points. 10 and above score 1 victory point. 20 and above scores 2 victory points. 30 and above scores 3 victory points.",
+                    "cost": {
+                        "1": 10
+                    }
+                },
+                "4": {
+                    "effect": "Exchange a token from your cauldron for a higher value one of the same color and put it in your bag. If you have 1 purple token, you can return any 1 value token for a 2 value token. If you have 2 purple tokens, you can return any 2 value token for a 4 value token. If you have 3 purple tokens, you can return a 1 value token for a 4 value token.",
+                    "cost": {
+                        "1": 11
+                    }
+                },
+                "5": {
+                    "effect": "Add up the victory points shown on all spaces covered by your purple tokens. Buy ip to 2 different coloured tokens, up to this total point value. You can do this even if you've exploded.",
+                    "cost": {
+                        "1": 9
+                    }
+                },
+                "6": {
+                    "effect": "Look at the number value on the token you placed after this one: score that many victory points.",
+                    "cost": {
+                        "1": 16
+                    }
+                }
+            }
+        },
+
+        "lime": {
+            "name": "Locoweeds",
+            "quantity": {
+                "1": 30
+            },
+            "set": {
+                "1": {
+                    "effect": "Move this token however many spaces your rat marker is moved forward this round plus 1 (max 4).",
+                    "cost": {
+                        "1": 8
+                    }
+                },
+                "2": {
+                    "effect": "This token hsa the same ability, colour and value as the last non-white token you placed.",
+                    "cost": {
+                        "1": 10
+                    }
+                },
+                "3": {
+                    "effect": "Move this token 1 space. When you distill essences, you can move your essence marker forward an extra space for each locoweed in your cauldron.",
+                    "cost": {
+                        "1": 11
+                    }
+                },
+                "4": {
+                    "effect": "Move this token a number of spaces based on how many different coloured toekns are in your cauldron, including this one.",
+                    "cost": {
+                        "1": 16
+                    }
+                },
+                "5": {
+                    "effect": "Move 1 space. You can return a non-white token of your choice from the cauldron to your bag.",
+                    "cost": {
+                        "1": 10
+                    }
+                },
+                "6": {
+                    "effect": "Count up all th eprinted values on the white tokens in your sauldron. Move this token that many spaces, minimum 1 space and maximum 4 spaces.",
+                    "cost": {
+                        "1": 12
+                    }
+                }
+            }
+        }
+    }
+}
